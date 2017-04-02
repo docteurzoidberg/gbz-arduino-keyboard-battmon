@@ -82,7 +82,7 @@
     }
     
     batt = average;    
-    battVolts =  batt * (vref / 1023.0);
+    battVolts =  batt * (VREF / 1023.0);
     battPercent = map(average, battEmpty, battFull, 0, 100);
     battmonLastMillis = millis();
   }

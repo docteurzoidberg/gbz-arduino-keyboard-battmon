@@ -16,7 +16,7 @@
     Serial.write('b');          //type=battery status
     Serial.write(0x06);         //len
     Serial.write(battPercent);  //batt percent
-    Serial.write(led1);         //batt charging
+    Serial.write(isCharging);   //batt charging
     Serial.write((byte)0);      //batt voltage 1/4
     Serial.write((byte)0);      //batt voltage 2/4
     Serial.write((byte)0);      //batt voltage 3/4
