@@ -1,0 +1,3 @@
+[submodule "libraries/pololu-led-strip-arduino"]
+	path = libraries/pololu-led-strip-arduino
+	url = https://github.com/pololu/pololu-led-strip-arduino.git
